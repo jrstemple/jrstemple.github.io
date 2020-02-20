@@ -1,2 +1,0 @@
-# jrstemple.github.io
-website
