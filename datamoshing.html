@@ -1,32 +1,35 @@
 <html>
 <head>
 <title>James Ross Stemple</title>
+	<link rel=stylesheet href="mosh.css">
 </head>
-<body style="background-color:#5AA7EE;">
+<body id="body">
 <div align="center">
 <a href="index" target="_top">
-	<img src="home.png" alt="Home" style="width:200;height:80;"></a>
+	<div id="home">
+		<img src="home.png" alt="Home" style="width:150;height:60;"></a>
+	</div>
 </div>
-<div align="center">
-	<img src="datamoshing.png" alt="Datamoshing" style="width:250;height:70;"></a>
-</div>
-<div align="center">
-<p style="font-family:freeroad;"> Datamoshing is the gingerly corruption of videos to make them look interesting. It has to do with the movement of the pixels and how you manipulate them through corruption and data compression. <br> The basic way to think about it is in terms of frames. There are 3 types of frames, which are:</p>
-<pre>
-	I-Frames: Still images that are the least compressible 
-	
-	P-Frames: Only track movement of pixels from the previous frame
-	
-	B-Frames: Take information from the previous and next frames and are the most compressible
-</pre>
-<p style="font-family:freeroad;"> B-Frames aren't really somthing to focus on, in fact we don't want any. The bread and butter of datamoshing is I and P frames.<br> Using an old video editing program called Avidemux (I use 2.5.6) we can encode video so it specifically has only 1 I frame and numerous P frames.</p>
-<p style="font-family:freeroad;"> This is where the fun begins--if you have multiple videos strung together and delete the I frames between the videos, you get this cool glitch effect, like this:</p>
-	<img src="i_frame.gif" alt="I Frame" width="640" height="360">
-<p style="font-family:freeroad;"> If you duplicate P frames you get this cool bleed like effect: (beware of any rogue I frames that could screw up any persisatancy of effects).</p>
-	<img src="p.gif" alt="P Frame" width="640" height="360">
-<p style="font-family:freeroad;"> Normally you leave the first I frame in the video in order to allow all the P frames to be moving from <i>something</i>, but my favorite effect is when you remove <i>all</i> of the I frames:</p>
-	<img src="i_frame_2.gif" alt="I Frame Deletion" width="640" height="360">
-<p style="font-family:freeroad;"> Once you start messing with some of the compression configurations in Avidemux, you can get some really ineresting visuals. And it <br> should go without saying that this process <i>will screw up any frame accuracy.</i></p>
+<div>
+	<div id="text" align="center">
+		<p style="font-family:freeroad;"> Datamoshing is the gingerly corruption of videos to make them look interesting. It has to do with the movement of the pixels and how you manipulate them through corruption and data compression. The basic way to think about it is in terms of frames. There are 3 types of frames, which are:</p>
+		<pre style="font-family:freeroad;">
+		I-Frames: Still images that are the least compressible 
+		
+		P-Frames: Only track movement of pixels from the previous frame
+		
+		B-Frames: Take information from the previous and next frames and are the most compressible
+		</pre>
+		<p style="font-family:freeroad;"> B-Frames aren't really something to focus on, in fact we don't want any. The bread and butter of datamoshing is I and P frames. Using an old video editing program called Avidemux (I use 2.5.6) we can encode video so it specifically has only 1 I frame and numerous P frames.</p>
+		<p style="font-family:freeroad;"> This is where the fun begins--if you have multiple videos strung together and delete the I frames between the videos, you get this cool glitch effect, like this:</p>
+			<img src="i_frame.gif" alt="I Frame" width="640" height="360">
+			
+		<p style="font-family:freeroad;"> If you duplicate P frames you get this cool bleed like effect: (beware of any rogue I frames that could screw up any persisatancy of effects).</p>
+			<img src="p.gif" alt="P Frame" width="640" height="360">
+		<p style="font-family:freeroad;"> Normally you leave the first I frame in the video in order to allow all the P frames to be moving from <i>something</i>, but my favorite effect is when you remove <i>all</i> of the I frames:</p>
+			<img src="i_frame_2.gif" alt="I Frame Deletion" width="640" height="360">
+		<p style="font-family:freeroad;"> Once you start messing with some of the compression configurations in Avidemux, you can get some really interesting visuals. And it should go without saying that this process <i>will screw up any frame accuracy.</i></p>
+	</div>	
 </div>
 </body>
 </html>
