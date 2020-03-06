@@ -77,4 +77,11 @@
 	max-height:100%;
 	max-width:100%;
 	margin-bottom:30px;
+	border:10px solid black;
+	padding: 10px;
+	max-height:100%;
+	max-width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#DBE5FF;
 }
