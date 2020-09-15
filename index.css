@@ -1,7 +1,7 @@
 /* body */
 
 #body {
-	font-family:freeroad;
+	font-family:quicksand;
 	background-color:#678FFE;
 }
 
@@ -9,13 +9,12 @@
 /* the banner */
 
 #banner {
+	
 	max-height:100%;
 	max-width:800px;
-	border:10px solid black;
 	margin-left:auto;
 	margin-right:auto;
-	padding:5px;
-	background-color:#DBE5FF;
+	background-color:#678FFE;
 }
 
 
@@ -25,49 +24,26 @@
 	
 	max-height:100%;
 	max-width:100%;
+	padding-left:auto;
+	padding-right:auto;
 }
-
 
 /*my about section*/
 
 #bio {
 	
 	overflow:auto;
-	border:10px solid black;
+	border:2px solid black;
 	padding: 40px;
 	font-size:150%;
 	max-height:100%;
 	max-width:800px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#DBE5FF;
+	background-color:#FFFFFF;
 	
 }	
 
-
-/*pics of me line */
-
-#pics_of_me {
-	font-size:120%;
-	margin-bottom:10px;
-	margin-top:15px;
-}
-
-
-/* the pics */
-
-#pics {
-	margin-bottom:25px;
-	overflow:auto;
-	padding:10px;
-	border:10px solid black;
-	max-height:100%;
-	max-width:800px;
-	margin-top: 15px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#DBE5FF;
-}
 
 
 /*the links at the bottom*/
@@ -77,11 +53,12 @@
 	max-height:100%;
 	max-width:100%;
 	margin-bottom:30px;
-	border:10px solid black;
+	border:2px solid black;
 	padding: 10px;
 	max-height:100%;
 	max-width:400px;
+	margin:5px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#DBE5FF;
+	background-color:#FFFFFF;
 }
