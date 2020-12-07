@@ -17,6 +17,19 @@
 	background-color:#678FFE;
 }
 
+/* the reel */
+
+#reel {
+	
+	border:2px solid black;
+	padding:40px;
+	max-height:100%;
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+
+}
 
 /*the pages/tabs*/
 
