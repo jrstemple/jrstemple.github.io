@@ -1,5 +1,5 @@
 #body {
-	background-color:#678FFE;
+	background-color:#FFFFFF;
 	font-family:quicksand;
 }
 #home {
@@ -35,6 +35,18 @@
 	background-color:#FFFFFF;
 }
 #vid3 {
+	border:2px solid black;
+	padding: 10px;
+	font-size:120%;
+	max-height:100%;
+	max-width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+	position:relative;
+	background-color:#FFFFFF;
+}
+#vid4 {
 	border:2px solid black;
 	padding: 10px;
 	font-size:120%;

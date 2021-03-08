@@ -2,7 +2,7 @@
 
 #body {
 	font-family:quicksand;
-	background-color:#678FFE;
+	background-color:#FFFFFF;
 }
 
 
@@ -14,22 +14,26 @@
 	max-width:800px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#678FFE;
+	background-color:#000000;
+	position: relative;
+	text-align: center;
+	border:5px solid black;
+	color:black;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
 }
 
-/* the reel */
+#centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family:freeroad;
+	font-size:64px;
+	font-style:oblique;
 
-#reel {
-	
-	border:2px solid black;
-	padding:40px;
-	max-height:100%;
-	max-width:800px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#FFFFFF;
-
-}
+}	
 
 /*the pages/tabs*/
 
@@ -57,7 +61,26 @@
 	
 }	
 
+#bio_text {
+	
+	
+	
+	
+}
 
+/* the reel */
+
+#reel {
+	
+	border:2px solid black;
+	padding:40px;
+	max-height:100%;
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+
+}
 
 /*the links at the bottom*/
 
