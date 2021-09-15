@@ -1,0 +1,31 @@
+#body {
+	font-family:helvetica;
+	background-color:#FFFFFF;
+}
+
+div.gallery {
+	margin:5px;
+	float:left;
+	width:324px;
+}
+
+div.gallery:hover {
+  border: 1px solid #000000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+a:link  {
+	color:black;
+	text-decoration: none;
+}
+a:hover  {
+	color:gray;
+	text-decoration: underline;
+}

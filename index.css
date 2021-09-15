@@ -1,72 +1,24 @@
 /* body */
 
 #body {
-	font-family:quicksand;
+	font-family:helvetica;
 	background-color:#FFFFFF;
 }
 
 
-/* the banner */
+/* links */
 
-#banner {
-	
-	max-height:100%;
-	max-width:800px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#000000;
-	position: relative;
-	text-align: center;
-	border:5px solid black;
+a:link  {
 	color:black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
+	text-decoration: none;
 }
-
-#centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family:freeroad;
-	font-size:64px;
-	font-style:oblique;
-
-}	
-
-/*the pages/tabs*/
-
-#pages {
-	
-	max-height:100%;
-	max-width:100%;
-	padding-left:auto;
-	padding-right:auto;
+a:hover  {
+	color:gray;
+	text-decoration: underline;
 }
+	
 
-/*my about section*/
 
-#bio {
-	
-	overflow:auto;
-	border:2px solid black;
-	padding: 40px;
-	font-size:150%;
-	max-height:100%;
-	max-width:800px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#FFFFFF;
-	
-}	
-
-#bio_text {
-	
-	
-	
-	
-}
 
 /* the reel */
 
